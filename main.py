@@ -58,7 +58,7 @@ async def Subscribe(lel, message):
             await app.send_message(chat_id=message.chat.id,text="Üzgünüm efendim, Yasaklandınız. İletişim [Support](https://t.me/mutsuz_panda).", parse_mode="markdown", disable_web_page_preview=True)
             return 1
       except UserNotParticipant:
-         await app.send_message(chat_id=message.chat.id, text="**Lütfen Beni Kullanmak İçin Güncellemelerim Kanalına Katılın!\n ve Kontrol etmek için tıklayın /start**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🤖 Güncellemeler Kanalına Katılın 🤖", url=f"https://t.me/majesteler")]]), parse_mode="markdown")
+         await app.send_message(chat_id=message.chat.id, text="**Lütfen Beni Kullanmak İçin Güncellemelerim Kanalına Katılın!\n ve Kontrol etmek için tıklayın /start**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🤖 Güncellemeler Kanalına Katılın 🤖", url=f"https://t.me/{update_channel}")]]), parse_mode="markdown")
          return 1
       except Exception:
          await app.send_message(chat_id=message.chat.id, text="**Bir şeyler yanlış gitti. İletişim [Support](https://t.me/majesteler).**", parse_mode="markdown", disable_web_page_preview=True)
