@@ -33,7 +33,7 @@ if not os.path.exists('data.csv'):
 APP_ID = int(os.environ.get("13390368"))
 API_HASH = os.environ.get("213794e62139e26219a5896f5adc8124")
 BOT_TOKEN = os.environ.get("5561256371:AAFJOZs2ErWY4crtrr6ujbWLsxLInKAdEUE")
-UPDATES_CHANNEL = "graiflyrics"
+UPDATES_CHANNEL = "majesteler"
 OWNER= [5077397380]
 PREMIUM=[5077397380]
 app = pyrogram.Client("app", api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
