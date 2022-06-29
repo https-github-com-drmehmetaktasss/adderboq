@@ -30,9 +30,9 @@ if not os.path.exists('data.csv'):
 
 
 
-APP_ID = int(os.environ.get("13390368"))
-API_HASH = os.environ.get("213794e62139e26219a5896f5adc8124")
-BOT_TOKEN = os.environ.get("5561256371:AAFJOZs2ErWY4crtrr6ujbWLsxLInKAdEUE")
+APP_ID = os.environ.get("APP_ID")
+API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 UPDATES_CHANNEL = "majesteler"
 OWNER= [5077397380]
 PREMIUM=[5077397380]
