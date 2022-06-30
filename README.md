@@ -1,6 +1,6 @@
 ### **İletişim**
 
-**Proje [Sahibi](https://t.me/MajesteSahip)
+**Proje [Sahibi](https://t.me/MajesteSahip)**
 
 **Support [Grup](https://t.me/majesteler)**
 
@@ -9,6 +9,7 @@
 
 ### 🚀 Heroku'ya dağıtın
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MacroKeke/Adderboq)
+
 
 
 
